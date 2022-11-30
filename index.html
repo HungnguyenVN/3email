@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript function to check whether a given value is US zip code or not</title>
+</head>
+<body>
+    <script>
+     function is_Email(str) {
+        regexp = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+        if (regexp.test(str)) {
+            return true;
+        } 
+        return false;
+}   
+    var newEmail = 'hungnguyenvan@gmail.com'
+    console.log(is_Email(newEmail));
+
+    
+    </script>
+</body>
+</html>
